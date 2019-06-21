@@ -6,6 +6,4 @@ export interface DaoInterface<T> {
     remover(id: number): T;
     selecionar(id: number): T;
     selecionarTodos(): Array<T>;
-    teste(): any;
-    novoTeste(): any;
 }
